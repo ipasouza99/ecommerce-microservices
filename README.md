@@ -145,6 +145,7 @@ docker-compose up -d
 **Clone o repositório:**
 
 git clone https://github.com/seuusuario/ecommerce-microservices.git
+
 cd ecommerce-microservices
 
 
