@@ -1,4 +1,4 @@
-# 🏬 ecommerce-microservices – Gestão de Estoque e Vendas
+# 🏬 ecommerce-microservices – Gestão de Estoque de produtos e Vendas
 
 Este projeto implementa uma arquitetura de microserviços para gerenciamento de estoque de produtos e vendas em uma plataforma de e-commerce.
 O sistema é dividido em dois microserviços principais — Gestão de Estoque de produtos e Gestão de Vendas — que se comunicam entre si via RabbitMQ e são acessados por meio de um API Gateway.
