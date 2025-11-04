@@ -58,6 +58,8 @@ A solução foi desenvolvida em .**NET Core (C#)**, utilizando **Entity Framewor
 
 **xUnit** (testes unitários)
 
+**Serilog**  (Logging estruturado)
+
  # 🧩 Estrutura dos Microserviços
 **🧮 Microserviço 1 – Gestão de Estoque**
 
