@@ -44,7 +44,7 @@ A solução foi desenvolvida em .**NET Core (C#)**, utilizando **Entity Framewor
 
 **Entity Framework Core** (ORM)
 
-**SQL Server** (banco de dados relacional)
+**MySql** (banco de dados relacional)
 
 **RabbitMQ** (mensageria entre microserviços)
 
