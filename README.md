@@ -1,4 +1,4 @@
-# 🏬 ecommerce-microservices – Gestão de Estoque de produtos e Vendas
+# 🛒  ecommerce-microservices – Gestão de Estoque de produtos e Vendas
 
 Este projeto implementa uma arquitetura de microserviços para gerenciamento de estoque de produtos e vendas em uma plataforma de e-commerce.
 O sistema é dividido em dois microserviços principais — Gestão de Estoque de produtos e Gestão de Vendas — que se comunicam entre si via RabbitMQ e são acessados por meio de um API Gateway.
@@ -60,6 +60,13 @@ A solução foi desenvolvida em .**NET Core (C#)**, utilizando **Entity Framewor
 
 **Serilog**  (Logging estruturado)
 
+**Oceltot** (API Gateway)
+
+# Teste Unitário
+
+**xUnit** (Framework de testes)
+
+
  # 🧩 Estrutura dos Microserviços
 **🧮 Microserviço 1 – Gestão de Estoque**
 
@@ -108,7 +115,7 @@ Usuários devem autenticar-se via /api/auth/login.
 
 O token JWT deve ser enviado no cabeçalho Authorization: Bearer <token>.
 
-Apenas usuários autenticados podem acessar endpoints protegidos (como /api/pedidos e /api/produtos).
+Apenas usuários autenticados podem acessar endpoints protegidos (como /api/sales e /api/inventory).
 
 # ⚙️ Como Executar o Projeto
 
