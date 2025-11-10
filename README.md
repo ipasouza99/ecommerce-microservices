@@ -7,7 +7,7 @@ A solução foi desenvolvida em .**NET Core (C#)**, utilizando **Entity Framewor
 
 # 🧱 Arquitetura da Solução
                         ────────────────────┐
-                        │      CLIENTE      │
+                        |      CLIENTE      │
                         └────────┬──────────┘
                                  │
                                  ▼
@@ -30,8 +30,8 @@ A solução foi desenvolvida em .**NET Core (C#)**, utilizando **Entity Framewor
         │ SQL Server  │               │ SQL Server  │
         └─────────────┘               └─────────────┘
 
-               ▲                             │
-               │                             │
+               ▲                              │
+               │                              │
                │       Comunicação via        │
                └───────► RabbitMQ ◄───────────┘
 
