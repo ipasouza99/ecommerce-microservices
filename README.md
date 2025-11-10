@@ -187,7 +187,7 @@ GET	/api/pedidos/{id}	Detalhar um pedido específico
 
 # 🧪 Testes Unitários
 
-Testes desenvolvidos com xUnit e Moq, cobrindo:
+Testes desenvolvidos com xUnit, cobrindo:
 
 Cadastro e consulta de produtos
 
